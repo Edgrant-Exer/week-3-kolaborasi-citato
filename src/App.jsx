@@ -3,6 +3,9 @@ import BertumbuhBesar from './BertumbuhBesar';
 import Slider from './Slider';
 import Header from "./Header";
 import Welcome from "./Welcome";
+import ProgramLoyalti from "./ProgramLoyalti.jsx"
+import MenuFooter from "./MenuFooter.jsx"
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
       <SkalaKami />
       <Slider />
       <BertumbuhBesar />
+      <ProgramLoyalti />
+      <MenuFooter />
     </div>
   );
 }
