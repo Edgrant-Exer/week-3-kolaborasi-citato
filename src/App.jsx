@@ -5,6 +5,9 @@ import Header from "./Header";
 import Welcome from "./Welcome";
 import ProgramLoyalti from "./ProgramLoyalti.jsx"
 import MenuFooter from "./MenuFooter.jsx"
+import KerjadiGojek from './KerjadiGojek.jsx';
+import Layanan from './layanan.jsx';
+
 
 
 function App() {
@@ -15,6 +18,8 @@ function App() {
       <SkalaKami />
       <Slider />
       <BertumbuhBesar />
+      <KerjadiGojek />
+      <Layanan />
       <ProgramLoyalti />
       <MenuFooter />
     </div>
